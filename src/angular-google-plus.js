@@ -175,6 +175,7 @@ angular.module('googleplus', []).
 
 // Initialization of module
 .run([function() {
+  if (angular.isDefined(window.gapi)) { return; }
   var po = document.createElement('script');
   po.type = 'text/javascript';
   po.async = true;

@@ -1,4 +1,4 @@
-/*! angular-google-plus - v0.1.3 2015-08-27 */
+/*! angular-google-plus - v0.1.4 2018-05-23 */
 /**
  * googleplus module
  */
@@ -136,6 +136,9 @@ angular.module("googleplus", []).provider("GooglePlus", [ function() {
         return new f();
     } ];
 } ]).run([ function() {
+    if (angular.isDefined(window.gapi)) {
+        return;
+    }
     var a = document.createElement("script");
     a.type = "text/javascript";
     a.async = true;

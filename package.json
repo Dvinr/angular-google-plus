@@ -1,6 +1,6 @@
 {
   "name": "angular-google-plus",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A angular module which handles the login with the Google+ API",
   "main": "dist/angular-google-plus.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mrzmyr/angular-google-plus.git"
+    "url": "git://github.com/Dvinr/angular-google-plus.git"
   },
   "keywords": [
     "google",
@@ -18,7 +18,7 @@
     "api"
   ],
   "bugs": {
-    "url": "https://github.com/mrzmyr/angular-google-plus/issues"
+    "url": "https://github.com/Dvinr/angular-google-plus/issues"
   },
   "author": "Moritz Meyer <m0ritz.m3yer@gmail.com>",
   "license": "MIT",
